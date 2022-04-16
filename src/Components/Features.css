@@ -1,0 +1,22 @@
+﻿.features {
+    text-align: center;
+    color: var(--neutral-white);
+    font-weight: 700;
+    
+}
+
+.features-content {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 10rem 0;
+    max-width: 55rem;
+    margin: 0 auto;
+    grid-gap: 6.5rem;
+}
+
+.features-content > div > p {
+    opacity: 0.7;
+    font-weight: 500;
+}

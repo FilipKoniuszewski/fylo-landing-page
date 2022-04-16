@@ -1,26 +1,16 @@
-﻿import React from 'react';
-import intro from "../Images/illustration-intro.png";
-import "./Intro.css";
+﻿import React from 'react'
+import Intro from "./Intro";
+import Features from "./Features";
+import Demo from "./Demo";
+
 
 
 function LandingPage(props) {
     return (
         <main className="Main">
-            <section className="intro">
-                <img src={intro} alt="" />
-                <h1>
-                    All your files in one secure
-                    location, accessible anywhere.
-                </h1>
-                <p>
-                    Fylo stores all your most important files in
-                    one secure location. Access them wherever you need, 
-                    share and collaborate with friends family, and co-workers.
-                </p>
-                <div className="get-started">
-                    Get Started
-                </div>
-            </section>
+            <Intro />
+            <Features />
+            <Demo />
         </main>
     );
 }
