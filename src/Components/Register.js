@@ -1,11 +1,28 @@
-﻿import React, {useState} from 'react'
+﻿import React, {useEffect, useState} from 'react'
 import "./Register.css"
 
 function Register(props) {
-    const [email, setEmail] = useState("")
+    const [email, setEmail] = useState()
     
-    function HandleSubmit() {
-        
+    const [isEmailValid, setIsEmailValid] = useState();
+
+    function ValidateEmail(email) {
+        return (
+            email.match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/));
+    }
+    
+    useEffect(() => {
+        if (!email) setIsEmailValid("")
+    }, [email])
+    
+    function HandleSubmit(e) {
+        e.preventDefault();
+        if (ValidateEmail(email)) {
+            setIsEmailValid(true)
+        }
+        else {
+            setIsEmailValid(false)
+        }
     }
     
     return (
@@ -19,10 +36,9 @@ function Register(props) {
                 <form>
                     <label htmlFor="email">
                     </label>
-                    <input type="email"
+                    <input type="text"
                            name="email"
                            id="email"
-                           autoComplete="off"
                            placeholder="email@example.com"
                            value={email}
                            onChange={e => setEmail(e.target.value) }/>
@@ -32,6 +48,15 @@ function Register(props) {
                            onClick={(e) => HandleSubmit(e)}
                            value="Get Started For Free"/>
                 </form>
+                {isEmailValid 
+                    ? <p className="emailValid">
+                        Email successfully sent
+                    </p>
+                    : isEmailValid === false 
+                        ? <p className="emailNotValid">
+                            Email is incorrect
+                        </p>
+                        : <p></p>}
             </div>
         </section>
     );
