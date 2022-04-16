@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 5%;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.logo > img{
+    max-width: 120px;
+}
+
+.nav__links {
+    display: flex;
+    gap: 2rem;
+    color: var(--neutral-white);
+}
+
+.nav__links > div {
+    transition: 100ms ease-in-out;
+    opacity: 0.7;
+}
+
+.nav__links > div:hover {
+    opacity: 1;
+    cursor: pointer;
+    
+}
+
