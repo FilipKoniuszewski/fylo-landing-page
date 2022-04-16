@@ -1,0 +1,43 @@
+﻿.intro {
+    margin-top: 9rem;
+    text-align: center;
+    color: var(--neutral-white);
+}
+
+.intro > img {
+    max-width: 650px;
+    object-fit: scale-down;
+}
+
+.intro > h1 {
+    font-size: 35px;
+    line-height: 1.5;
+    max-width: 30ch;
+    margin:0 auto;
+    font-weight: 700;
+    padding-top: 1.5rem;
+}
+
+.intro > p {
+    max-width: 50ch;
+    margin:0 auto;
+    padding: 1.5rem 0;
+    opacity: 0.7;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.get-started {
+    background: linear-gradient(to right, 
+    var(--accent-call-to-action-cyan), 
+    var(--accent-call-to-action-blue));
+    display: inline-block;
+    padding: 0.8rem 4rem;
+    border-radius: 2rem;
+    transition: 200ms ease-in-out;
+}
+
+.get-started:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
