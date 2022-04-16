@@ -1,0 +1,59 @@
+﻿.register {
+    text-align: center;
+    color: var(--neutral-white);
+    font-weight: 700;
+    position: relative;
+    top: 115px;
+}
+
+.register-content {
+    margin: 0 auto;
+    max-width: 45rem;
+    background: var(--primary-intro-email-bg);
+    border-radius: 0.4rem;
+    padding: 1rem 5rem 3rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+.register-content > h2 {
+    font-size: 35px;
+    
+}
+
+.register-content > p {
+    font-size: 15px;
+    opacity: 0.7;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+input[type=submit] {
+    padding: 1rem 2.5rem;
+    background: linear-gradient(to right,
+    var(--accent-call-to-action-cyan),
+    var(--accent-call-to-action-blue));
+    border-radius: 2rem;
+    transition: 200ms ease-in-out;
+    border: none;
+    color: var(--neutral-white);
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+input[type=email] {
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+form {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

@@ -19,7 +19,6 @@ function Features(props) {
                         to access your account means your files
                         follow you everywhere.
                     </p>
-
                 </div>
                 <div className="security">
                     <img src={securityImage} alt="" />
@@ -30,7 +29,6 @@ function Features(props) {
                         2-factor authentication and user-controlled
                         encryption are just a couple of the security
                         features we allow to help secure your files.
-
                     </p>
                 </div>
                 <div className="collab">
