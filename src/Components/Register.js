@@ -1,10 +1,13 @@
 ﻿import React, {useEffect, useState} from 'react'
 import "./Register.css"
+import {useOutletContext} from "react-router-dom";
 
 function Register(props) {
     const [email, setEmail] = useState()
     
     const [isEmailValid, setIsEmailValid] = useState();
+
+    const { signRef } = useOutletContext();
 
     function ValidateEmail(email) {
         return (
@@ -26,7 +29,7 @@ function Register(props) {
     }
     
     return (
-        <section className="register">
+        <section className="register" ref={signRef}>
             <div className="register-content">
                 <h2>Get early access today</h2>
                 <p>It only takes a minute to sign up and our free 

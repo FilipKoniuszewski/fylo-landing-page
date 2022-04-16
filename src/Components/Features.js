@@ -4,10 +4,13 @@ import securityImage from "../Images/icon-security.svg";
 import collabImage from "../Images/icon-collaboration.svg";
 import storeImage from "../Images/icon-any-file.svg";
 import "./Features.css"
+import {useOutletContext} from "react-router-dom";
 
 function Features(props) {
+    const { featuresRef } = useOutletContext();
+    
     return (
-        <section className="features">
+        <section className="features" ref={featuresRef}>
             <div className="features-content">
                 <div className="access">
                     <img src={accessImage} alt="" />

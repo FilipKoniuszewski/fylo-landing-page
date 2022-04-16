@@ -1,10 +1,13 @@
-﻿import React from 'react';
+﻿import React, {useEffect} from 'react';
 import intro from "../Images/illustration-intro.png";
 import "./Intro.css"
+import {useOutletContext} from "react-router-dom";
 
 function Intro(props) {
+    const { homeRef } = useOutletContext();
+    
     return (
-        <section className="intro">
+        <section className="intro" ref={homeRef}>
             <img src={intro} alt="" />
             <h1>
                 All your files in one secure

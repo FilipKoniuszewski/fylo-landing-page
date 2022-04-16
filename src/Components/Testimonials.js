@@ -4,10 +4,14 @@ import profile1 from "../Images/profile-1.jpg"
 import profile2 from "../Images/profile-2.jpg"
 import profile3 from "../Images/profile-3.jpg"
 import quotes from "../Images/bg-quotes.png"
+import {useOutletContext} from "react-router-dom";
 
 function Testimonials(props) {
+
+    const { testimonialsRef } = useOutletContext();
+    
     return (
-        <section className="testimonials">
+        <section className="testimonials" ref={testimonialsRef}>
             <img className="quotes" src={quotes} alt="" />
             <div className="testimonials-content">
                 <div className="testimonials-card">

@@ -5,8 +5,6 @@ import Demo from "./Demo";
 import Testimonials from "./Testimonials";
 import Register from "./Register";
 
-
-
 function LandingPage(props) {
     return (
         <main className="Main">

@@ -2,10 +2,13 @@
 import "./Demo.css"
 import demoImage from "../Images/illustration-stay-productive.png"
 import goToDemo from "../Images/icon-arrow.svg"
+import {useOutletContext} from "react-router-dom";
 
 function Demo(props) {
+    const { demoRef } = useOutletContext();
+    
     return (
-        <section className="demo"> 
+        <section className="demo" ref={demoRef}> 
             <div className="demo-content">
                 <img src={demoImage} alt="" />
                 <div className="demo-text-content">

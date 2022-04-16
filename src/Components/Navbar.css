@@ -9,6 +9,10 @@ header {
     background: var(--primary-main-bg);
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 .logo > img{
     max-width: 120px;
 }
