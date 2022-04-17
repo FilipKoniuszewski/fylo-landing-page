@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fylo-landing-page/static/css/main.c49d6dc5.css",
-    "main.js": "/fylo-landing-page/static/js/main.8e7bbb03.js",
+    "main.css": "/fylo-landing-page/static/css/main.5c451458.css",
+    "main.js": "/fylo-landing-page/static/js/main.ecaa21ff.js",
     "static/media/illustration-intro.png": "/fylo-landing-page/static/media/illustration-intro.c20d85255009f195b4a6.png",
     "static/media/illustration-stay-productive.png": "/fylo-landing-page/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
     "static/media/icon-collaboration.svg": "/fylo-landing-page/static/media/icon-collaboration.6c80c0a4c84274f029eb51c36f603765.svg",
@@ -14,11 +14,11 @@
     "static/media/icon-phone.svg": "/fylo-landing-page/static/media/icon-phone.43c05d1a510cada2b8f305cbb2278ae4.svg",
     "static/media/icon-location.svg": "/fylo-landing-page/static/media/icon-location.a681f02d94e561498fa0781c3538edac.svg",
     "static/media/icon-email.svg": "/fylo-landing-page/static/media/icon-email.201ea9e2e87effbe720d0f8b77fba022.svg",
-    "main.c49d6dc5.css.map": "/fylo-landing-page/static/css/main.c49d6dc5.css.map",
-    "main.8e7bbb03.js.map": "/fylo-landing-page/static/js/main.8e7bbb03.js.map"
+    "main.5c451458.css.map": "/fylo-landing-page/static/css/main.5c451458.css.map",
+    "main.ecaa21ff.js.map": "/fylo-landing-page/static/js/main.ecaa21ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.c49d6dc5.css",
-    "static/js/main.8e7bbb03.js"
+    "static/css/main.5c451458.css",
+    "static/js/main.ecaa21ff.js"
   ]
 }
