@@ -1,12 +1,12 @@
 # Frontend Mentor - Fylo dark theme landing page
 
+This is a solution for a Frontend Mentor challenge that consists on building a landing page that looks as close to the given design as possible. The goal is to improve my web layout skills by building a realistic project.
+
 ![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+This is a solution for a [Frontend Mentor](https://www.frontendmentor.io) challenge that consists on building a landing page that looks as close to the given design as possible. The goal is to improve my web layout skills by building a realistic project.
 
 **To do this challenge you need a basic understanding of HTML and CSS.**
 
