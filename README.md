@@ -17,7 +17,9 @@ I could use any tools you like to help you complete the challenge. So if you've 
 User should be able to: 
 
 - View the optimal layout for the site depending on their device's screen size
+- Able to scroll to view from navbar
 - See hover states for all interactive elements on the page
+- See if Email is valid
 
 ## Check out the result
 
