@@ -1,12 +1,12 @@
 # Frontend Mentor - Fylo dark theme landing page
 
-This is a solution for a Frontend Mentor challenge that consists on building a landing page that looks as close to the given design as possible. The goal is to improve my web layout skills by building a realistic project.
-
-![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)
-
 ## Welcome! 👋
 
 This is a solution for a [Frontend Mentor](https://www.frontendmentor.io) challenge that consists on building a landing page that looks as close to the given design as possible. The goal is to improve my web layout skills by building a realistic project.
+
+## Preview
+
+![desktop-preview](https://user-images.githubusercontent.com/82803009/163695086-fffcc722-361b-4927-a663-d5c63e000084.jpg)
 
 ## The challenge
 
@@ -18,6 +18,5 @@ User should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-
 
 
