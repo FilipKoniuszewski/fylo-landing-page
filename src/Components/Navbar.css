@@ -6,7 +6,7 @@ header {
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
-    background: var(--primary-main-bg);
+    background: var(--primary-intro-email-bg);
 }
 
 .logo:hover {
@@ -32,5 +32,15 @@ header {
     opacity: 1;
     cursor: pointer;
     
+}
+
+@media (max-width: 900px) {
+    .nav__links {
+        gap: 1.5rem;
+    }
+    
+    .logo > img {
+        max-width: 90px;
+    }
 }
 

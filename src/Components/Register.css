@@ -17,7 +17,6 @@
 
 .register-content > h2 {
     font-size: 35px;
-    
 }
 
 .register-content > p {
@@ -79,4 +78,35 @@ form {
 }
 .emailValid {
     color: #4BB543;
+}
+
+@media (max-width: 900px) {
+    form {
+        flex-direction: column;
+    }
+    
+    input[type=text] {
+        width: 50%;
+    }
+
+    input[type=submit] {
+        width: 70%;
+        font-weight: bold;
+    }
+
+    .register-content {
+        border-radius: 1rem;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    .register {
+        max-width: 27rem;
+        margin: 0 auto;
+    }
+    .register-content > h2 {
+        font-size: 25px;
+    }
+    .register-content > p {
+        max-width: 30ch;
+        margin: 0 auto;
+    }
 }

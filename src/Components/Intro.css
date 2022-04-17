@@ -1,12 +1,20 @@
 ﻿.intro {
-    margin-top: 9rem;
+    margin-top: 7.3rem;
     text-align: center;
     color: var(--neutral-white);
+    background: var(--primary-intro-email-bg);
+    padding-bottom: 13rem;
+    background-image: url(../Images/bg-curvy-desktop.svg);
+    object-fit: scale-down;
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .intro > img {
     max-width: 650px;
     object-fit: scale-down;
+    margin: 0 auto;
 }
 
 .intro > h1 {
@@ -41,6 +49,32 @@
 .get-started:hover {
     cursor: pointer;
     opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+    .intro {
+        margin-top: 6.9rem;
+        background-image: url(../Images/bg-curvy-mobile.svg);
+        background-size: 100% 40%;
+    }
+    
+    .get-started {
+        font-weight: bold;
+        padding: 1rem 5rem;
+    }
+
+    .intro > img {
+        max-width: 400px;
+    }
+
+    .intro > h1 {
+        max-width: 20ch;
+    }
+
+    .intro > p {
+        max-width: 40ch;
+    }
+
 }
 
 

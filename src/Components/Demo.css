@@ -45,3 +45,25 @@
     opacity: 0.6;
     
 }
+
+@media (max-width: 900px) {
+    .demo-content {
+        max-width: 25rem;
+        flex-direction: column;
+    }
+    
+    .demo {
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+
+    .demo-content > img {
+        max-width: 25rem;
+        margin: 0 auto;
+    }
+
+    .demo-text-content > h1 {
+        max-width: 30ch;
+    }
+    
+}

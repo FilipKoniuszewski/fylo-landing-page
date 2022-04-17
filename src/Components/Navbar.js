@@ -7,10 +7,10 @@ function Navbar(props) {
         let yOffset
         switch(section) {
             case props.home:
-                yOffset = -110
+                yOffset = -120
                 break
             case props.features:
-                yOffset = -110
+                yOffset = -200
                 break
             case props.demo:
                 yOffset = -270
