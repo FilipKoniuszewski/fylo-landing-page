@@ -12,7 +12,7 @@ This is a solution for a [Frontend Mentor](https://www.frontendmentor.io) challe
 
 My challenge was to build out this landing page and get it looking as close to the design as possible.
 
-I could use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+I could use any tools you like to help you complete the challenge so I used React.js
 
 User should be able to: 
 
